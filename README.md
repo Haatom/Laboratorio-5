@@ -59,4 +59,16 @@ El -v hace que la operación sea más detallada \
 El -i hace que incluya en las cabeceras de respuesta el protocolo responsable de la salida
 
 ## Parte II
+Revise la clase SampleServlet incluida a continuacion, e identifique qué hace: \
+En el pom.xml, modifique la propiedad "packaging" con el valor "war". Agregue la siguiente dependencia: \
+![Foto8](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/A%C3%B1adirDependenciaJavaX.PNG) \
+Compile y ejecute la aplicación en el servidor embebido Tomcat, a través de Maven con: \
+![Foto9](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/tomcat2.PNG)
+Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo. \
+![Foto10](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/tomcat1.PNG) \
+Busque el artefacto gson en el repositorio de maven y agregue la dependencia. \
+
+
+
+
 
