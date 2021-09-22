@@ -74,3 +74,7 @@ En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/
 
 ![Foto11](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/json1.PNG)
 ![Foto12](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/json2.PNG)
+
+Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
+
+![Foto13](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/punto2.9.PNG) \
