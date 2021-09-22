@@ -69,6 +69,8 @@ Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le e
 Busque el artefacto gson en el repositorio de maven y agregue la dependencia. \
 
 
+En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
 
 
-
+![Foto11](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/json1.PNG)
+![Foto12](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/json2.PNG)
