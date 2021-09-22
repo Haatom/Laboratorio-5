@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Calculadora Estadistica</title>
+</h:head>
+    <h:body>
+        <h:form id="calculadora_form">
+            <h:panelGrid columns="2">
+                <h:ouputLabel value="Entrada"/>
+                <h:inputText id="lista" type="text" binding="#{input}" />
+                <h:outputLabel value="Mode :" />
+		<h:outputLabel value="#{calculadoraBean.mode}" />
+                <h:outputLabel value="Mean:" />
+		<h:outputLabel value="#{calculadoraBean.mean}" />
+                <h:outputLabel value="Standar Deviation :" />
+		<h:outputLabel value="#{calculadoraBean.standar}" />
+                <h:outputLabel value="Variance :" />
+		<h:outputLabel value="#{calculadoraBean.variance}" />
+                <h:commandButton value="Calculate"  update="calculadora_form" actionListener="#{calculadoraBean.calculate(input.value)}"/>
+                <h:commandButton value="Restart" update="calculadora_form" actionListener="#{calculadoraBean.restart}"/>
+                
+            </h:panelGrid>
+        </h:form>
+        
+    </h:body>
+</html>
