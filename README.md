@@ -91,3 +91,13 @@ Intente hacer diferentes consultas desde un navegador Web para probar las difere
 ![Foto15](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/newServlet2.PNG)
 
 ## Parte III
+
+Cree el archivo index.html en el directorio src/main/webapp/index.html de la siguiente manera:
+**Creado**
+Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el browser se valide que el valor ingresado es un valor numérico.
+![Foto16](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/indexhtml.PNG) \
+
+Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.\
+![Foto17](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/index1.PNG) \
+![Foto18](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/index2.PNG)\
+
