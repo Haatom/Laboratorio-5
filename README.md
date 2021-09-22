@@ -86,3 +86,7 @@ Teniendo en cuenta las siguientes métodos disponibles en los objetos ServletReq
 Una vez hecho esto, verifique el funcionamiento de la aplicación, recompile y ejecute la aplicación.
 
 Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
+
+![Foto14](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/newServlet1)
+![Foto15](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/newServlet2)
+
