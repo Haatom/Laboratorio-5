@@ -101,3 +101,6 @@ Qué se está viendo? Revise cómo están implementados los métodos de la clase
 ![Foto17](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/index1.PNG) \
 ![Foto18](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/index2.PNG)\
 
+## Parte IV 
+
+Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl, javax.servlet.jstl y Primefaces (en el archivo pom.xml).
