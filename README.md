@@ -90,3 +90,4 @@ Intente hacer diferentes consultas desde un navegador Web para probar las difere
 ![Foto14](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/newServlet1.PNG)
 ![Foto15](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/newServlet2.PNG)
 
+## Parte III
