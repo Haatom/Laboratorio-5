@@ -8,3 +8,10 @@
 0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:42 -0500] "GET /newServlet?id=169 HTTP/1.1" 200 164 http-bio-8080-exec-1 153
 0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:46 -0500] "GET /newServlet?id=200 HTTP/1.1" 200 166 http-bio-8080-exec-1 138
 0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:23:51 -0500] "GET /newServlet?id=69 HTTP/1.1" 200 206 http-bio-8080-exec-4 264
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:39:53 -0500] "GET /newServlet HTTP/1.1" 500 1537 http-bio-8080-exec-1 48
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:40:10 -0500] "GET /newServlet?id=69 HTTP/1.1" 200 206 http-bio-8080-exec-2 940
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:53:33 -0500] "GET /Lab05/src/main/webapp/index.html HTTP/1.1" 404 1015 http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:55:12 -0500] "GET /Lab05/src/main/webapp/index.html HTTP/1.1" 404 1015 http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:55:22 -0500] "GET / HTTP/1.1" 200 800 http-bio-8080-exec-8 37
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:55:26 -0500] "GET /newServlet?id=3 HTTP/1.1" 200 154 http-bio-8080-exec-9 397
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:55:46 -0500] "GET /newServlet?id=3 HTTP/1.1" 200 154 http-bio-8080-exec-1 315
