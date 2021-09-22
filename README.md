@@ -79,9 +79,7 @@ Basado en la respuesta que le da el servicio del punto anterior, cree la clase e
 
 ![Foto13](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/punto2.9.PNG) \
 Cree una clase que herede de la clase HttpServlet (similar a SampleServlet), y para la misma sobrescriba el método heredado doGet. Incluya la anotación @Override para verificar –en tiempo de compilación- que efectivamente se esté sobreescribiendo un método de las superclases. \
-
 Para indicar en qué URL el servlet interceptará las peticiones GET, agregue al método la anotación @WebServlet, y en dicha anotación, defina la propiedad urlPatterns, indicando la URL (que usted defina) a la cual se asociará el servlet. \
-
 Teniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequest y ServletResponse recibidos por el método doGet: \
 
 **Se crea en la clase newServlet**
