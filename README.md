@@ -74,3 +74,15 @@ En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/
 
 ![Foto11](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/json1.PNG)
 ![Foto12](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/json2.PNG)
+
+Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
+
+![Foto13](https://github.com/Haatom/Laboratorio-5/blob/master/Resources/punto2.9.PNG) \
+Cree una clase que herede de la clase HttpServlet (similar a SampleServlet), y para la misma sobrescriba el método heredado doGet. Incluya la anotación @Override para verificar –en tiempo de compilación- que efectivamente se esté sobreescribiendo un método de las superclases. \
+Para indicar en qué URL el servlet interceptará las peticiones GET, agregue al método la anotación @WebServlet, y en dicha anotación, defina la propiedad urlPatterns, indicando la URL (que usted defina) a la cual se asociará el servlet. \
+Teniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequest y ServletResponse recibidos por el método doGet: \
+**Se crea en la clase newServlet**
+
+Una vez hecho esto, verifique el funcionamiento de la aplicación, recompile y ejecute la aplicación.
+
+Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
