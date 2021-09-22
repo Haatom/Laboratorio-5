@@ -6,7 +6,7 @@ public class Todo{
 	
 	public int userId;
 	public int id;
-	public String tittle;
+	public String title;
 	public boolean completed;
 	
 	public Todo(){ }
@@ -14,26 +14,28 @@ public class Todo{
 	public int getId(){
 		return id;
 	}
-	public int setId(int num){
+	public void setId(int num){
 		id = num;
 	}
 	public int getUserId(){
 		return userId;
 	}
-	public int setId(int num){
+	public void setUserId(int num){
 		userId = num;
 	}
 	
-	public String getTittle(){
-		return tittle;
+	public String getTitle(){
+		return title;
 	}
-	public StringsetId(String stri){
-		tittle = stri;
+	public void setTitle(String stri){
+		title = stri;
 	}
 	
-	public boolean getComplete(){
+	public boolean getCompleted(){
 		return completed;
 	}
-	public boolean setId(boolean a){
+	public void  setCompleted(boolean a){
 		completed = a;
 	}
+        
+}

@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:19:13 -0500] "GET /newServlet HTTP/1.1" 500 1537 http-bio-8080-exec-1 71
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:19:14 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:19:27 -0500] "GET /newServlet?=Hola HTTP/1.1" 500 1537 http-bio-8080-exec-4 29
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:13 -0500] "GET /newServlet?id=69 HTTP/1.1" 200 206 http-bio-8080-exec-5 1846
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:23 -0500] "GET /newServlet?id=666 HTTP/1.1" 500 1557 http-bio-8080-exec-7 382
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:34 -0500] "GET /newServlet?id=24 HTTP/1.1" 200 187 http-bio-8080-exec-8 289
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:38 -0500] "GET /newServlet?id=140 HTTP/1.1" 200 194 http-bio-8080-exec-9 147
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:42 -0500] "GET /newServlet?id=169 HTTP/1.1" 200 164 http-bio-8080-exec-1 153
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:46 -0500] "GET /newServlet?id=200 HTTP/1.1" 200 166 http-bio-8080-exec-1 138
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:23:51 -0500] "GET /newServlet?id=69 HTTP/1.1" 200 206 http-bio-8080-exec-4 264
