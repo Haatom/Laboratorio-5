@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author David Perez & Nicolas Camacho
  */
-@ManagedBean(name = "calculadoraBean")
+@ManagedBean(name = "CalculadoraBean")
 @ApplicationScoped
 public class CalculadoraBean {
     private ArrayList<Double> numeros;
